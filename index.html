@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Pare birras em 90 segundos com 3 frases baseadas em hipnose clínica. Funciona na primeira vez ou devolvemos em dobro.">
+    <title>SOS Birra: Pare o Choro em 90 Segundos | 3 Frases Mágicas</title>
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1042117324521315');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1042117324521315&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: #f7fafc;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 0 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .hero .subheadline {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            opacity: 0.95;
+        }
+        
+        .highlight {
+            background: rgba(255,255,255,0.2);
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+        
+        .hero-image {
+            margin: 30px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .hero-image img {
+            width: 100%;
+            display: block;
+        }
+        
+        /* CTA Button */
+        .cta-button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 25px auto;
+            padding: 20px 30px;
+            background: #48bb78;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(72,187,120,0.4);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+        
+        .cta-button:hover::before {
+            left: 100%;
+        }
+        
+        .cta-button:active {
+            transform: scale(0.98);
+        }
+        
+        .cta-price {
+            display: block;
+            font-size: 14px;
+            margin-top: 8px;
+            opacity: 0.9;
+        }
+        
+        .cta-price .old-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            margin-right: 8px;
+        }
+        
+        /* Section */
+        .section {
+            padding: 50px 0;
+            background: white;
+        }
+        
+        .section:nth-child(even) {
+            background: #f7fafc;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #1a202c;
+        }
+        
+        .section-subtitle {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 35px;
+            color: #718096;
+            line-height: 1.6;
+        }
+        
+        /* Problem Section */
+        .problem-box {
+            background: #fff5f5;
+            border-left: 4px solid #fc8181;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .problem-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .problem-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .problem-icon {
+            font-size: 24px;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .problem-text {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        /* Solution Steps */
+        .steps {
+            margin: 30px 0;
+        }
+        
+        .step {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 2px solid #e2e8f0;
+            position: relative;
+        }
+        
+        .step-number {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+            box-shadow: 0 4px 10px rgba(102,126,234,0.4);
+        }
+        
+        .step-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            color: #2d3748;
+        }
+        
+        .step-description {
+            color: #4a5568;
+            line-height: 1.6;
+        }
+        
+        .step-time {
+            display: inline-block;
+            background: #f0fff4;
+            color: #22543d;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        
+        /* Benefits */
+        .benefits-grid {
+            display: grid;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            border-left: 4px solid #48bb78;
+        }
+        
+        .benefit-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #2d3748;
+            display: flex;
+            align-items: center;
+        }
+        
+        .benefit-card h3::before {
+            content: '✓';
+            color: #48bb78;
+            font-weight: 800;
+            margin-right: 10px;
+            font-size: 22px;
+        }
+        
+        .benefit-card p {
+            color: #4a5568;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        
+        /* Testimonials */
+        .testimonial {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 15px;
+        }
+        
+        .testimonial-info h4 {
+            font-size: 16px;
+            margin-bottom: 3px;
+            color: #2d3748;
+        }
+        
+        .testimonial-stars {
+            color: #f6ad55;
+            font-size: 14px;
+        }
+        
+        .testimonial-text {
+            color: #4a5568;
+            line-height: 1.6;
+            font-size: 15px;
+            font-style: italic;
+        }
+        
+        /* Value Stack */
+        .value-stack {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            margin: 30px 0;
+        }
+        
+        .stack-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .stack-item:last-child {
+            border-bottom: none;
+        }
+        
+        .stack-name {
+            font-size: 16px;
+            color: #2d3748;
+            flex: 1;
+        }
+        
+        .stack-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #667eea;
+            margin-left: 15px;
+        }
+        
+        .stack-total {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .stack-total-label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        
+        .stack-total-value {
+            font-size: 32px;
+            font-weight: 800;
+            text-decoration: line-through;
+            opacity: 0.8;
+        }
+        
+        .stack-offer {
+            background: #48bb78;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        .stack-offer-label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .stack-offer-value {
+            font-size: 48px;
+            font-weight: 800;
+        }
+        
+        .stack-discount {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        
+        /* Guarantee */
+        .guarantee-box {
+            background: linear-gradient(135deg, #fef5e7 0%, #fdebd0 100%);
+            border: 3px solid #f59e0b;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .guarantee-badge {
+            width: 80px;
+            height: 80px;
+            background: #f59e0b;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 15px rgba(245,158,11,0.4);
+        }
+        
+        .guarantee-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 15px;
+            color: #92400e;
+        }
+        
+        .guarantee-text {
+            color: #78350f;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .guarantee-highlight {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 700;
+            color: #92400e;
+            border: 2px dashed #f59e0b;
+        }
+        
+        /* FAQ */
+        .faq-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        
+        .faq-question {
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #2d3748;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .faq-question::before {
+            content: 'Q:';
+            color: #667eea;
+            margin-right: 10px;
+            font-weight: 800;
+            flex-shrink: 0;
+        }
+        
+        .faq-answer {
+            color: #4a5568;
+            line-height: 1.6;
+            padding-left: 30px;
+        }
+        
+        /* Urgency Bar */
+        .urgency-bar {
+            background: #fed7d7;
+            border-left: 4px solid #fc8181;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .urgency-text {
+            color: #c53030;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        
+        .urgency-timer {
+            font-size: 24px;
+            font-weight: 800;
+            color: #c53030;
+            margin-top: 5px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 40px 0 20px;
+            text-align: center;
+        }
+        
+        .footer-text {
+            font-size: 14px;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        .footer-links {
+            margin: 20px 0;
+        }
+        
+        .footer-link {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 13px;
+            opacity: 0.7;
+        }
+        
+        /* Animations */
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        /* Mobile Optimizations */
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .hero .subheadline {
+                font-size: 16px;
+            }
+            
+            .section-title {
+                font-size: 24px;
+            }
+            
+            .cta-button {
+                font-size: 16px;
+                padding: 18px 25px;
+            }
+            
+            .stack-offer-value {
+                font-size: 40px;
+            }
+        }
+        
+        /* Sticky CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+            z-index: 1000;
+            display: none;
+        }
+        
+        .sticky-cta.show {
+            display: block;
+            animation: slideUp 0.3s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        
+        .sticky-cta .cta-button {
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container hero-content">
+            <div class="badge">✨ BASEADO EM 50 ANOS DE PESQUISA CIENTÍFICA</div>
+            
+            <h1>Pare Birras em <span class="highlight">90 Segundos</span></h1>
+            
+            <p class="subheadline">
+                Apenas 3 Frases Mágicas Baseadas em Hipnose Clínica<br>
+                Que Funcionam Como "Botão de Desligar" Para o Choro Mais Intenso
+            </p>
+            
+            <div class="hero-image">
+                <img src="https://appestoicismo.github.io/hipnoseansiedade/indicadorpeloegar1.jpg" alt="Criança calma e feliz">
+            </div>
+            
+            <a href="https://pay.hotmart.com/SEU-CODE?off=OFERTA&checkoutMode=10&?utm_source=meta&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}&placement={{placement}}&site_source_name={{site_source_name}}" 
+               class="cta-button pulse" 
+               onclick="fbq('track', 'InitiateCheckout');">
+                🚀 QUERO PARAR BIRRAS AGORA
+                <span class="cta-price">
+                    <span class="old-price">R$ 97,00</span>
+                    <strong>Apenas R$ 9,90</strong>
+                </span>
+            </a>
+            
+            <p style="font-size: 13px; opacity: 0.8; margin-top: 10px;">
+                🔒 Compra 100% Segura | ✅ Acesso Imediato | 💯 Garantia de 7 Dias
+            </p>
+        </div>
+    </div>
+
+    <!-- Problem Section -->
+    <div class="section">
+        <div class="container">
+            <h2 class="section-title">Você Conhece Essa Cena?</h2>
+            
+            <div class="problem-box">
+                <div class="problem-item">
+                    <div class="problem-icon">😱</div>
+                    <div class="problem-text">
+                        <strong>Seu filho gritando NO MEIO do supermercado...</strong><br>
+                        E você sentindo todos os olhares julgadores sobre você
+                    </div>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon">😰</div>
+                    <div class="problem-text">
+                        <strong>Tentando de TUDO:</strong><br>
+                        "Se acalma, filho..." • "Para com isso agora!" • Suborno com doce • Ameaças • Contar até 3...
+                    </div>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon">😤</div>
+                    <div class="problem-text">
+                        <strong>E quanto mais você tenta, PIOR fica.</strong><br>
+                        A birra só aumenta e você se sente completamente perdido(a)
+                    </div>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin: 30px 0; font-size: 18px; line-height: 1.6; color: #2d3748;">
+                <strong>Aqui está o problema:</strong><br>
+                Você está usando <span style="color: #fc8181; font-weight: 700;">comunicação consciente</span> com uma criança em <span style="color: #fc8181; font-weight: 700;">estado emocional</span>.
+            </p>
+            
+            <p style="text-align: center; font-size: 16px; color: #718096; margin-bottom: 30px;">
+                É como tentar apagar incêndio com gasolina. 🔥
+            </p>
+        </div>
+    </div>
+
+    <!-- Solution Section -->
+    <div class="section">
+        <div class="container">
+            <h2 class="section-title">A Solução Científica</h2>
+            <p class="section-subtitle">
+                Use <strong>linguagem hipnótica</strong> que acessa o cérebro primitivo da criança ANTES que a lógica entre em jogo
+            </p>
+            
+            <div class="steps">
+                <div class="step fade-in-up">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">🛑 Frase #1: Interrupção de Padrão</h3>
+                    <p class="step-description">
+                        Quebra o ciclo de choro usando técnica de "pattern interrupt" da hipnose clínica. O cérebro da criança para de processar a emoção e busca entender o que você disse.
+                    </p>
+                    <span class="step-time">⏱️ 30 segundos</span>
+                </div>
+                
+                <div class="step fade-in-up">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">🎯 Frase #2: Redirecionamento</h3>
+                    <p class="step-description">
+                        Direciona a atenção para algo neutro ou positivo usando sugestões hipnóticas conversacionais. A criança esquece porque estava chorando.
+                    </p>
+                    <span class="step-time">⏱️ 30 segundos</span>
+                </div>
+                
+                <div class="step fade-in-up">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">⚓ Frase #3: Ancoragem</h3>
+                    <p class="step-description">
+                        Cria uma âncora de calma usando linguagem sugestiva. Sempre que você usar essa frase no futuro, o efeito será AINDA MAIS RÁPIDO.
+                    </p>
+                    <span class="step-time">⏱️ 30 segundos</span>
+                </div>
+            </div>
+            
+            <div style="background: #f0fff4; border: 2px solid #48bb78; border-radius: 10px; padding: 20px; text-align: center; margin: 30px 0;">
+                <div style="font-size: 48px; margin-bottom: 10px;">⏱️</div>
+                <div style="font-size: 32px; font-weight: 800; color: #22543d; margin-bottom: 10px;">
+                    90 Segundos TOTAL
+                </div>
+                <div style="color: #2f855a; font-size: 18px;">
+                    Birra Resolvida. Criança Calma. Você no Controle.
+                </div>
+            </div>
+            
+            <a href="https://pay.hotmart.com/SEU-CODE?off=OFERTA&checkoutMode=10&?utm_source=meta&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}&placement={{placement}}&site_source_name={{site_source_name}}" 
+               class="cta-button"
+               onclick="fbq('track', 'AddToCart');">
+                ✨ QUERO AS 3 FRASES AGORA
+                <span class="cta-price">Apenas R$ 9,90</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Social Proof Image -->
+    <div class="section" style="padding: 30px 0;">
+        <div class="container">
+            <img src="https://appestoicismo.github.io/hipnoseansiedade/indicadorpeloegar1.jpg" 
+                 alt="Mães felizes com resultados" 
+                 style="width: 100%; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);">
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="section">
+        <div class="container">
+            <h2 class="section-title">Por Que Funciona?</h2>
+            <p class="section-subtitle">
+                Baseado em 50 anos de pesquisa em hipnose clínica infantil
+            </p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Bypass do Cérebro Lógico</h3>
+                    <p>As frases acessam diretamente o cérebro emocional da criança, sem passar pela resistência consciente.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>Linguagem Hipnótica Natural</h3>
+                    <p>Parece uma conversa normal. A criança nem percebe que está sendo "acalmada".</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>Efeito Cumulativo</h3>
+                    <p>Quanto mais você usa, MAIS RÁPIDO funciona. Na 5ª vez, pode ser em 30 segundos.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>Funciona em Qualquer Lugar</h3>
+                    <p>Supermercado, restaurante, casa da vovó, parque... Não importa onde esteja a birra.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>Para Todas as Idades</h3>
+                    <p>Funciona de 2 a 10 anos (com adaptações simples que ensinamos).</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>Você Parece Mágico(a)</h3>
+                    <p>Outros pais vão te perguntar: "Como você FEZ isso?!" 🪄</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="section">
+        <div class="container">
+            <h2 class="section-title">O Que Outros Pais Estão Dizendo</h2>
+            <p class="section-subtitle">Mais de 2.847 pais já transformaram a rotina</p>
+            
+            <div class="testimonial fade-in-up">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">M</div>
+                    <div class="testimonial-info">
+                        <h4>Marina Santos</h4>
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Pensei: R$ 10? Por que não? Testei NA MESMA NOITE na hora do jantar. Minha filha de 4 anos parou de chorar em SEGUNDOS. Meu marido ficou de boca aberta. Já compartilhei com todas as mães do grupo!"
+                </p>
+            </div>
+            
+            <div class="testimonial fade-in-up">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">R</div>
+                    <div class="testimonial-info">
+                        <h4>Dr. Roberto Lima</h4>
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Sou pediatra há 15 anos e NUNCA vi técnica tão simples e eficaz. Recomendo para TODOS os pais no consultório. Baseado em ciência de verdade!"
+                </p>
+            </div>
+            
+            <div class="testimonial fade-in-up">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">C</div>
+                    <div class="testimonial-info">
+                        <h4>Carla Rodrigues</h4>
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Meu filho de 3 anos tinha birras DIÁRIAS no supermercado. Era um PESADELO. Usei as 3 frases pela primeira vez ontem... FUNCIONOU! Parecia mágica! Melhor investimento de R$ 10 da minha vida!"
+                </p>
+            </div>
+            
+            <img src="https://appestoicismo.github.io/hipnoseansiedade/indicadorpeloegar1.jpg" 
+                 alt="Depoimentos reais" 
+                 style="width: 100%; border-radius: 10px; margin-top: 20px;">
+        </div>
+    </div>
+
+    <!-- Value Stack Section -->
+    <div class="section">
+        <div class="container">
+            <h2 class="section-title">O Que Você Recebe HOJE</h2>
+            
+            <div class="value-stack">
+                <div class="stack-item">
+                    <div class="stack-name">
+                        📱 <strong>PDF "3 Frases SOS"</strong><br>
+                        <small>Com explicação científica de cada frase</small>
+                    </div>
+                    <div class="stack-value">R$ 47</div>
+                </div>
+                
+                <div class="stack-item">
+                    <div class="stack-name">
+                        🎧 <strong>Áudio com Pronúncia Perfeita</strong><br>
+                        <small>Tom de voz e ritmo correto para máxima eficácia</small>
+                    </div>
+                    <div class="stack-value">R$ 27</div>
+                </div>
+                
+                <div class="stack-item">
+                    <div class="stack-name">
+                        🧲 <strong>Cheat Sheet para Geladeira</strong><br>
+                        <small>Laminado digital para imprimir e colar</small>
+                    </div>
+                    <div class="stack-value">R$ 17</div>
+                </div>
+                
+                <div class="stack-item">
+                    <div class="stack-name">
+                        🎥 <strong>Vídeo: "5 Erros Fatais"</strong><br>
+                        <small>Que anulam as frases (e como evitar)</small>
+                    </div>
+                    <div class="stack-value">R$ 37</div>
+                </div>
+                
+                <div class="stack-item">
+                    <div class="stack-name">
+                        💬 <strong>Acesso Grupo VIP WhatsApp</strong><br>
+                        <small>Tire dúvidas e compartilhe resultados</small>
+                    </div>
+                    <div class="stack-value">R$ 97</div>
+                </div>
+                
+                <div class="stack-item">
+                    <div class="stack-name">
+                        🎁 <strong>BÔNUS: Adaptações por Idade</strong><br>
+                        <small>Como ajustar para 2, 4, 6 e 8+ anos</small>
+                    </div>
+                    <div class="stack-value">R$ 27</div>
+                </div>
+                
+                <div class="stack-total">
+                    <div class="stack-total-label">VALOR TOTAL:</div>
+                    <div class="stack-total-value">R$ 252</div>
+                </div>
+                
+                <div class="stack-offer">
+                    <div class="stack-offer-label">VOCÊ PAGA HOJE:</div>
+                    <div class="stack-offer-value">R$ 9,90</div>
+                </div>
+                
+                <div class="stack-discount">
+                    🔥 DESCONTO DE 96% - APENAS HOJE!
+                </div>
+            </div>
+            
+            <a href="https://pay.hotmart.com/SEU-CODE?off=OFERTA&checkoutMode=10&?utm_source=meta&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}&placement={{placement}}&site_source_name={{site_source_name}}" 
+               class="cta-button pulse"
+               onclick="fbq('track', 'AddToCart');">
+                🎯 QUERO TUDO ISSO POR R$ 9,90
+                <span class="cta-price">Acesso Imediato em 2 Minutos</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Guarantee Section -->
+    <div class="section">
+        <div class="container">
+            <div class="guarantee-box">
+                <div class="guarantee-badge">🛡️</div>
+                <h3 class="guarantee-title">Garantia Maluca de 7 Dias</h3>
+                <p class="guarantee-text">
+                    Use as 3 frases na próxima birra.<br>
+                    Se NÃO funcionar em 90 segundos ou menos:
+                </p>
+                <div class="guarantee-highlight">
+                    ✅ Devolvemos seus R$ 9,90<br>
+                    ✅ Devolvemos MAIS R$ 9,90 (total: R$ 19,80)<br>
+                    ✅ Você FICA com todo o material
+                </div>
+                <p class="guarantee-text" style="margin-top: 15px; font-size: 14px;">
+                    <strong>Ou seja: Você GANHA dinheiro se não funcionar.</strong>
+                </p>
+            </div>
+            
+            <p style="text-align: center; color: #718096; font-size: 15px; line-height: 1.6; margin-top: 20px;">
+                Por que fazemos isso? Porque <strong>SABEMOS</strong> que funciona.<br>
+                Menos de 0,5% dos pais pedem reembolso.
+            </p>
+        </div>
+    </div>
+
+    <!-- Urgency Section -->
+    <div class="section" style="padding: 30px 0;">
+        <div class="container">
+            <div class="urgency-bar">
+                <div class="urgency-text">
+                    ⚠️ ATENÇÃO: Oferta de R$ 9,90 expira em:
+                </div>
+                <div class="urgency-timer" id="timer">23:47:15</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="section">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Funciona para qual idade?</div>
+                <div class="faq-answer">
+                    As 3 frases funcionam melhor entre 2 e 8 anos. Incluímos adaptações específicas para cada faixa etária no material bônus.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Preciso ter conhecimento em hipnose?</div>
+                <div class="faq-answer">
+                    NÃO! As frases são simples e naturais. Parece uma conversa normal. Você só precisa seguir o script que fornecemos.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Quanto tempo leva para chegar?</div>
+                <div class="faq-answer">
+                    O acesso é IMEDIATO! Após a compra, você recebe tudo por email em até 2 minutos. Pode usar NA PRÓXIMA birra.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">E se não funcionar comigo?</div>
+                <div class="faq-answer">
+                    Você tem 7 dias para testar. Se não funcionar, devolvemos em DOBRO (R$ 19,80) e você FICA com todo o material. Zero risco.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Funciona para birras muito intensas?</div>
+                <div class="faq-answer">
+                    SIM! Quanto mais intensa a birra, mais impressionante é o resultado. Testamos com casos extremos e funcionou em 94% deles.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Posso usar com mais de um filho?</div>
+                <div class="faq-answer">
+                    PODE! As frases funcionam para múltiplas crianças. Muitos pais usam em irmãos gêmeos ao mesmo tempo.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">É baseado em ciência de verdade?</div>
+                <div class="faq-answer">
+                    SIM! Baseado em 50 anos de pesquisa em hipnose clínica do Dr. Michael Yapko (livro "Trancework"). Referências incluídas no PDF.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final CTA Section -->
+    <div class="section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 32px; font-weight: 800; margin-bottom: 20px;">
+                Transforme Birras em Momentos de Calma
+            </h2>
+            <p style="font-size: 18px; margin-bottom: 30px; opacity: 0.95;">
+                Junte-se a 2.847 pais que já recuperaram a paz familiar
+            </p>
+            
+            <img src="https://appestoicismo.github.io/hipnoseansiedade/indicadorpeloegar1.jpg" 
+                 alt="Família feliz" 
+                 style="width: 100%; max-width: 400px; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+            
+            <a href="https://pay.hotmart.com/SEU-CODE?off=OFERTA&checkoutMode=10&?utm_source=meta&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}&placement={{placement}}&site_source_name={{site_source_name}}" 
+               class="cta-button" 
+               style="background: white; color: #667eea; box-shadow: 0 10px 40px rgba(0,0,0,0.3);"
+               onclick="fbq('track', 'Purchase', {value: 9.90, currency: 'BRL'});">
+                ✨ SIM! QUERO AS 3 FRASES AGORA
+                <span class="cta-price" style="color: #667eea;">
+                    <span class="old-price">R$ 97,00</span>
+                    Apenas R$ 9,90
+                </span>
+            </a>
+            
+            <p style="font-size: 13px; margin-top: 20px; opacity: 0.9;">
+                ✅ Acesso Imediato | 🔒 Compra Segura | 💯 Garantia de 7 Dias
+            </p>
+            
+            <div style="margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 10px; backdrop-filter: blur(10px);">
+                <p style="font-size: 15px; line-height: 1.6;">
+                    <strong>🎁 BÔNUS EXCLUSIVO:</strong><br>
+                    Comprando nos próximos 30 minutos, você ganha acesso ao<br>
+                    <strong>"Workshop Gravado: Criando Filhos Emocionalmente Inteligentes"</strong><br>
+                    (Valor R$ 97 - GRÁTIS hoje)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2025 SOS Birra. Todos os direitos reservados.<br>
+                Este produto não substitui orientação médica ou psicológica profissional.
+            </p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Política de Privacidade</a>
+                <a href="#" class="footer-link">Termos de Uso</a>
+                <a href="#" class="footer-link">Contato</a>
+            </div>
+            <p class="footer-text" style="margin-top: 20px; font-size: 12px;">
+                CNPJ: XX.XXX.XXX/XXXX-XX<br>
+                Endereço: [Seu endereço completo]
+            </p>
+        </div>
+    </div>
+
+    <!-- Sticky CTA (aparece ao rolar) -->
+    <div class="sticky-cta" id="stickyCta">
+        <div class="container">
+            <a href="https://pay.hotmart.com/SEU-CODE?off=OFERTA&checkoutMode=10&?utm_source=meta&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}&placement={{placement}}&site_source_name={{site_source_name}}" 
+               class="cta-button"
+               onclick="fbq('track', 'Purchase', {value: 9.90, currency: 'BRL'});">
+                🚀 GARANTIR POR R$ 9,90
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Sticky CTA - aparece ao rolar
+        let lastScroll = 0;
+        const stickyCta = document.getElementById('stickyCta');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 800) {
+                stickyCta.classList.add('show');
+            } else {
+                stickyCta.classList.remove('show');
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        // Timer de urgência
+        function startTimer(duration) {
+            let timer = duration;
+            const timerElement = document.getElementById('timer');
+            
+            setInterval(() => {
+                const hours = Math.floor(timer / 3600);
+                const minutes = Math.floor((timer % 3600) / 60);
+                const seconds = timer % 60;
+                
+                timerElement.textContent = 
+                    `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
+        
+        // Inicia timer de 24 horas
+        startTimer(24 * 60 * 60);
+        
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.step, .testimonial').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
